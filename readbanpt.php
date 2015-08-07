@@ -57,3 +57,4 @@ $objPHPExcel->setActiveSheetIndex(5);
 echo 'Set active sheet to '.$objPHPExcel->getActiveSheetIndex(),EOL;
 echo 'Get content on cell G34: '.number_format($objPHPExcel->getActiveSheet()->getCell('G34')->getCalculatedValue(),2),EOL;
 echo 'Get content on cell G35: '.$objPHPExcel->getActiveSheet()->getCell('G35')->getCalculatedValue(),EOL;
+echo 'Finished reading file.';
